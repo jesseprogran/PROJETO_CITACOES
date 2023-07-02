@@ -8,7 +8,7 @@ Uma aplicação web para exibir e compartilhar citações inspiradoras.
 
 - Exibe citações motivacionais aleatórias.
 - Permite compartilhar citações nas redes sociais.
-- Possibilidade de adicionar novas citações ao banco de dados.
+- Possibilidade de adicionar novas citações.
 
 ## Demonstração
 
