@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(201deg 95% 21%) 5%,
+    hsl(185deg 93% 22%) 10%,
+    hsl(174deg 92% 24%) 14%,
+    hsl(168deg 92% 28%) 19%,
+    hsl(163deg 92% 32%) 24%,
+    hsl(160deg 92% 35%) 29%,
+    hsl(158deg 92% 37%) 33%,
+    hsl(156deg 92% 40%) 38%,
+    hsl(154deg 92% 42%) 43%,
+    hsl(153deg 92% 45%) 48%,
+    hsl(151deg 91% 46%) 52%,
+    hsl(150deg 88% 45%) 57%,
+    hsl(148deg 86% 45%) 62%,
+    hsl(146deg 84% 45%) 67%,
+    hsl(144deg 83% 44%) 71%,
+    hsl(141deg 81% 44%) 76%,
+    hsl(138deg 79% 43%) 81%,
+    hsl(135deg 78% 43%) 86%,
+    hsl(131deg 76% 42%) 90%,
+    hsl(125deg 75% 42%) 95%,
+    hsl(113deg 92% 37%) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  padding-top: 2rem;
+}
+
+.quote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid #d2cece;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.quote .text {
+    font-style: italic;
+    margin-bottom: 0.4rem;
+}
+
+.quote .author {
+    font-weight: bold;
+    color: #2b5336;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #044206;
+  box-shadow: 0 5px #282727;
+  transform: translateY(4px);
+}
+
+
